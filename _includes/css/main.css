@@ -100,6 +100,7 @@ a:focus {
 	min-height: 70px;
 	padding-top: 10px;
 	margin-bottom: 0px;
+	background-color: #20447f !important;
 }
 
 .navbar-brand {
@@ -112,9 +113,10 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
+	color: #be9e44 !important;
 	font-weight: 700;
 	font-size: 12px;
+	
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -122,13 +124,14 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: {{ site.colors.primary }};
-	background-color: transparent;
+	color: white  !important;
+	background-color: #20447f  !important;
+	margin-bottom: 10px !important;
 }
 
 .navbar-default {
 	background-color: {{ site.colors.secondary }};
-	border-color: transparent;
+	color: white !important;
 }
 
 .dropdown-menu {
