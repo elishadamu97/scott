@@ -7,13 +7,11 @@
     <link rel="shortcut icon" href="">
 
     <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="/assets/css/bootstrap.css"  rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="/assets/css/main.css" rel="stylesheet">
-    <link href="/assets/css/font-awesome.min.css"  rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/font-awesome.min.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.css" | relative_url }}">
+  
+  
     
     <!-- Custom CSS -->
     <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
