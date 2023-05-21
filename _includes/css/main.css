@@ -219,13 +219,17 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: {{ site.colors.primary }};
+	background-color: ;
 	min-height: 0px;
 	padding-top: 100px;
 	padding-bottom: 50px;
 	text-align: center;
 }
 
+.responsive-img{
+	width: 100% !important;
+	height: auto !important;
+}
 #headerwrap h3, h5 {
 	color: white;
 	font-weight: 400;
@@ -237,7 +241,8 @@ a:focus {
 }
 
 #headerwrap .img-responsive {
-	margin: 0 auto;
+	width: 100% !important;
+	height: auto !important;
 }
 
 /* Services Wrap */
