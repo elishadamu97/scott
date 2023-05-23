@@ -26,6 +26,10 @@ collections:
   projects:
     output: true
     permalink: /projects/:title/
+
+  galleries:
+    output: true
+    permalink: /galleries/:title/
   questions:
     output: true
     permalink: /questions/:title/
