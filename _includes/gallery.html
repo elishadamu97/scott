@@ -2,7 +2,9 @@
     <div class="portfolio-centered">
         {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
         <div class="recentitems portfolio">
-            {% for gallery in site.galleries limit:include.limit %}
+            {% assign image_files = site.static_files | where: "image", true %}
+            {% for myimage in image_files %}
+            {{ myimage.path }}
                 <div class="portfolio-item graphic-design">
                     <div class="he-wrap tpl6">
                     <img class="eachphoto"src="{{ "/assets/img/project/" | prepend: site.baseurl }}{{ project.img }}" alt="">
