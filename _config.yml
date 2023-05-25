@@ -29,9 +29,7 @@ collections:
   galleries:
     output: true
     permalink: /galleries/:title/
-  questions:
-    output: true
-    permalink: /questions/:title/
+
 
 ### CONTACT SETTINGS ###
 
@@ -49,11 +47,11 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
+    - Townsville,
+    - QLD 4815,
+    - Australia.
 email: hello@solidtheme.com
-tel: +34 8493-4893
+tel: 0447946016
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
@@ -109,7 +107,10 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: " Emerging Artist
+🤯 Using Art To Free My Mind
+🗿 Contemporary & Indigenous Art
+🖼 Commissions Open"
 
 # Testimonial content. Shown on Home and About page.
 testimonial:

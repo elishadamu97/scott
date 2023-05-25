@@ -12,4 +12,98 @@ permalink: /gallery/
             <div class="hline"></div>
         </div>
     </div>
+    
 </div><!--/container -->
+
+<div id="portfoliowrap">
+    <div class="portfolio-centered">
+        {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+        <h3>Arcylic Gallery</h3>
+        <div class="recentitems portfolio">
+            {% for gallery in site.galleries limit:include.limit %}
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+                    <img class="eachphoto" src="{{ "/assets/img/gallery/arcylic-gallery/" | prepend: site.baseurl }}{{ gallery.img }}" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">{{ gallery.title }}</h3>
+                                <a data-rel="prettyPhoto" href="{{ "/assets/img/gallery/arcylic-gallery/" | prepend: site.baseurl }}{{ gallery.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->
+                        
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            {% endfor %}
+        </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->
+
+<div id="portfoliowrap">
+    <div class="portfolio-centered">
+        {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+        <h3>Contemporary Indigenous</h3>
+        <div class="recentitems portfolio">
+            {% for gallery in site.galleries limit:include.limit %}
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+                    <img class="eachphoto" src="{{ "/assets/img/gallery/contemporary-indigenous/" | prepend: site.baseurl }}{{ gallery.img }}" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">{{ gallery.title }}</h3>
+                                <a data-rel="prettyPhoto" href="{{ "/assets/img/gallery/contemporary-indigenous/" | prepend: site.baseurl }}{{ gallery.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->
+                        
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            {% endfor %}
+        </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->
+
+<div id="portfoliowrap">
+    <div class="portfolio-centered">
+        {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+        <h3>Mark Making and Drawing</h3>
+        <div class="recentitems portfolio">
+            {% for gallery in site.galleries limit:include.limit %}
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+                    <img class="eachphoto" src="{{ "/assets/img/gallery/mark-making-and-drawing/" | prepend: site.baseurl }}{{ gallery.img }}" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">{{ gallery.title }}</h3>
+                                <a data-rel="prettyPhoto" href="{{ "/assets/img/gallery/mark-making-and-drawing/" | prepend: site.baseurl }}{{ gallery.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->
+                        
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            {% endfor %}
+        </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->
+
+<div id="portfoliowrap">
+    <div class="portfolio-centered">
+        {% if include.title %}<h3>{{ include.title }}</h3>{% endif %}
+        <h3>Water Colour</h3>
+        <div class="recentitems portfolio">
+            {% for gallery in site.galleries limit:include.limit %}
+                <div class="portfolio-item graphic-design">
+                    <div class="he-wrap tpl6">
+                    <img class="eachphoto" src="{{ "/assets/img/gallery/watercolour/" | prepend: site.baseurl }}{{ gallery.img }}" alt="">
+                        <div class="he-view">
+                            <div class="bg a0" data-animate="fadeIn">
+                                <h3 class="a1" data-animate="fadeInDown">{{ gallery.title }}</h3>
+                                <a data-rel="prettyPhoto" href="{{ "/assets/img/gallery/watercolour/" | prepend: site.baseurl }}{{ gallery.img }}" class="dmbutton a2" data-animate="fadeInUp"><i class="fa fa-search"></i></a>
+                            </div><!-- he bg -->
+                        </div><!-- he view -->
+                        
+                    </div><!-- he wrap -->
+                </div><!-- end col-12 -->
+            {% endfor %}
+        </div><!-- portfolio -->
+    </div><!-- portfolio container -->
+</div><!--/Portfoliowrap -->
+

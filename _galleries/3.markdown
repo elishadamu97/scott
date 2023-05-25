@@ -1,11 +1,11 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
+title:  "Arcylic Gallery"
 date:   2014-04-25 16:54:46
 author: Marcel Newman
 categories:
 - project
-img: 311998605_836970957438554_8500201987649318155_n.jpg
+img: 311487300_481040153960228_8145967361658345077_n.jpg
 thumb: thumb02.jpg
 carousel:
 - 311843605_490697899772936_1248757912109399323_n.jpg
